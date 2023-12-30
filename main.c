@@ -37,6 +37,7 @@ int demander_continuer_a_jouer();
 
 
 int main(){
+
     char nom_joueur[LONGUEUR_MAX_NOM];
     int continuer = 1;
     int nb_parties = 0;

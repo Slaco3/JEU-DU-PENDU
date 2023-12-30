@@ -13,7 +13,9 @@ Ainsi, si le joueur est dans le top 10 des meilleurs joueur, il apparaitra dans 
 
 Instructions : 
 1. Clonez le référenciel
-2. Compilez le programme grâce à un compilateur C tel que MinGW
+2. Compilez le programme grâce à un compilateur C tel que GCC
+    - exemple pour windows : gcc -o pendu.exe main.c classement.c
+    - exemple pour linux :  gcc -o pendu main.c classement.c
 3. Exécutez le jeu et commencez à deviner les mots
 
 Bonne partie ! 
